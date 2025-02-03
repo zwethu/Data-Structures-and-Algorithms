@@ -18,4 +18,8 @@ public class Node {
 	public Node getNextNode() {
 		return this.next;
 	}
+	
+	public String print() {
+		return "value: " + data;
+	}
 }
